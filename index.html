@@ -1,0 +1,86 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login page</title>
+        <link rel="icon" href="login.jpg">
+        <style>
+            fieldset{
+                text-align: left;
+                border: 5px solid black;
+                width: 450px;
+            }
+            div
+            {
+        justify-content: center;
+            display: flex;
+            align-items: center;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding-top: 150px;
+            }
+            input{
+            background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(215,223,252,1) 0%, rgba(255,255,255,1) 0%, rgba(215,223,252,1) 84% );        }
+            #lname{
+                font-family: cursive;
+            }
+            body{
+            background: #EEAECA;
+                background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+            }
+            #v:hover{
+                background-color: #5a052a;
+            }
+            #fset{
+                border-radius: 8px;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <div >
+            <form action="https://moneshwar-2005.github.io/Playlist/" method="post" >      
+            <fieldset  id="fset">
+                <legend id="lname">Personal Details</legend>
+                <table>
+                <tr>
+                    <td>First Name</td>
+                    <td><input type="text"  id="fn" required></td>
+                </tr>
+                <tr>
+                    <td>Last name</td>
+                    <td><input type="text" name="" id="ln" required></td>
+                </tr>
+                <tr>
+                    <td>password</td>
+                    <td><input type="password"  id="password" required></td>
+                </tr>
+                <tr>
+                    <td>Retype-password</td>
+                    <td><input type="password"  id="retype-password" required></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="Email" id="email" required></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><input type="radio" name="gender" > Male <input type="radio" name="gender" >Female <input type="radio" name="gender">Others</td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td>
+                    <td><input type="date" id="DOB" required></td>
+                </tr>
+                <tr>
+                    <td>Phone Number</td>
+                    <td><input type="tel" id="num" maxlength="10"></td>
+                </tr>
+            </table>
+            <textarea name="tarea"  placeholder="comments"></textarea> <br>
+            <button type="submit">Submit</button>     <button type="reset">Reset</button>
+            </fieldset>
+        </form>
+        </div>
+    </body>
+    </html>
