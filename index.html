@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login page</title>
+<link rel="icon" href="login.jpg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div >
+<form action="https://moneshwar-2005.github.io/Playlist/" target="_blank" >      
+<fieldset  id="fset">
+    <legend id="lname">Personal Details</legend>
+    <table>
+    <tr>
+        <td>First Name</td>
+        <td><input type="text"  id="fn" required placeholder="Eg:Monesh"> <p>Enter your Name</p></td>
+    </tr>
+    <tr>
+        <td>Last name</td>
+        <td><input type="text" name="" id="ln" required placeholder="Eg:Saravanan"><p>Enter your Last Name</p></td>
+    </tr>
+    <tr>
+        <td>password</td>
+        <td><input type="password"  id="password" required ><p>Enter Your password</p></td>
+    </tr>
+    <tr>
+        <td>Retype-password</td>
+        <td><input type="password"  id="retype-password" required><p>Retype your password</p></td>
+    </tr>
+    <tr>
+        <td>Email</td>
+        <td><input type="email" id="email" required placeholder="xyz@gmail.com" >
+            <p>Enter your email</p>
+            <img src="verified.gif" id="valid">
+            <img src="wrong-decision.gif" id="invalid">
+        </td>
+    </tr>
+    <tr>
+        <td>Gender</td>
+        <td><input type="radio" name="gender" ><label for="Male"> Male</label>
+                <input type="radio" name="gender" ><label for="Female">Female</label>
+                <input type="radio" name="gender"><label for="Others ">Others </label>
+        </td>
+    </tr>
+    <tr>
+        <td>Date of Birth</td>
+        <td><input type="date" id="DOB" required></td>
+    </tr>
+    <tr>
+        <td>Age</td>
+        <td>
+        <input type="number" min="18" max="100">
+        <p>Enter the valid Age</p>
+        <img src="verified.gif" id="valid">
+        <img src="wrong-decision.gif" id="invalid">
+        </td>
+    </tr>
+    <tr>
+        <td>Phone Number</td>
+        <td><input type="tel" id="num" maxlength="10" placeholder="1234567890"><p>Enter Your Phone Number</p></td>
+    </tr>
+    <tr>
+        <td>Academy</td>
+        <td><input type="text" value="Tap Academy" readonly></td>
+    </tr>
+    <tr>
+        <td>Upload</td>
+        <td><input type="file" ></td>
+    </tr>
+    <tr>
+        <td>Select Country</td>
+        <td><select  id="option"><option value="India">India</option> <option value="Australia">Australia</option><option value="Africa">Africa</option></select></td>
+    </tr>
+</table>
+<textarea name="tarea" cols="30" rows="5"  placeholder="comments"></textarea> <br>
+<input type="submit" class="button" > <input type="reset" class="button">
+</fieldset>
+</form>
+</div>
+</body>
+</html>

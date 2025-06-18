@@ -1,0 +1,77 @@
+@import url("https://fonts.cdnfonts.com/css/google-sans");
+@import url('https://fonts.cdnfonts.com/css/samsung-logo-font');
+fieldset{
+text-align: left;
+border: 5px solid black;
+width: 500px;
+}
+div
+{
+justify-content: center;
+display: flex;
+align-items: center;
+font-family: 'Product Sans', sans-serif;
+padding-top: 150px;
+}
+input:hover{
+background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(215,223,252,1) 0%, rgba(255,255,255,1) 0%, rgba(215,223,252,1) 84% );        
+}
+input:focus{
+    font-family: font-family: 'Samsung Logo font', sans-serif;;
+}
+#lname{
+font-family:cursive;
+letter-spacing: 10px;
+}
+body{
+background: #EEAECA;
+background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+#fset{
+border-radius: 8px;
+}
+input+p{
+display: none;
+}
+input:hover+p{
+display: inline;
+background-color: antiquewhite;
+border-radius: 2px;
+border-radius: 5px;
+font-size: small;
+border: 2px solid black;
+}
+img{
+    display: none;
+}
+input[type="email"]:focus:valid~img#valid{
+    display: inline;
+    height: 15px;
+    width: 20px;
+}
+input[type="email"]:focus:invalid~img#invalid{
+    display: inline;
+    height: 15px;
+    width: 20px;
+}
+input[type="radio"]:checked{
+    height:15px;
+    width: 20px;
+    font-size: 20px;
+}
+input[type="number"]:focus:valid~img#valid{
+    display: inline;
+    height: 15px;
+    width: 20px;
+}
+input[type="number"]:focus:invalid~img#invalid{
+    display: inline;
+    height: 15px;
+    width: 20px;
+}
+textarea{
+    resize: none;
+}
+
+
+
